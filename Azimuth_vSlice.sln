@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Azimuth_vSlice", "Intermediate\ProjectFiles\Azimuth_vSlice.vcxproj", "{366DC3B3-4734-4DCF-AF41-C5C40B0C29BC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugGame Editor|Windows = DebugGame Editor|Windows
+		DebugGame|Windows = DebugGame|Windows
+		Development Editor|Windows = Development Editor|Windows
+		Development|Windows = Development|Windows
+		Shipping|Windows = Shipping|Windows
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{366DC3B3-4734-4DCF-AF41-C5C40B0C29BC}.DebugGame Editor|Windows.ActiveCfg = DebugGame_Editor|x64
+		{366DC3B3-4734-4DCF-AF41-C5C40B0C29BC}.DebugGame Editor|Windows.Build.0 = DebugGame_Editor|x64
+		{366DC3B3-4734-4DCF-AF41-C5C40B0C29BC}.DebugGame|Windows.ActiveCfg = DebugGame_Game|x64
+		{366DC3B3-4734-4DCF-AF41-C5C40B0C29BC}.DebugGame|Windows.Build.0 = DebugGame_Game|x64
+		{366DC3B3-4734-4DCF-AF41-C5C40B0C29BC}.Development Editor|Windows.ActiveCfg = Development_Editor|x64
+		{366DC3B3-4734-4DCF-AF41-C5C40B0C29BC}.Development Editor|Windows.Build.0 = Development_Editor|x64
+		{366DC3B3-4734-4DCF-AF41-C5C40B0C29BC}.Development|Windows.ActiveCfg = Development_Game|x64
+		{366DC3B3-4734-4DCF-AF41-C5C40B0C29BC}.Development|Windows.Build.0 = Development_Game|x64
+		{366DC3B3-4734-4DCF-AF41-C5C40B0C29BC}.Shipping|Windows.ActiveCfg = Shipping_Game|Win32
+		{366DC3B3-4734-4DCF-AF41-C5C40B0C29BC}.Shipping|Windows.Build.0 = Shipping_Game|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

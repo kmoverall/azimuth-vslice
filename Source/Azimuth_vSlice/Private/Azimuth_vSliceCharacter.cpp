@@ -26,6 +26,7 @@ AAzimuth_vSliceCharacter::AAzimuth_vSliceCharacter(const FObjectInitializer& Obj
 	SideViewCameraComponent = ObjectInitializer.CreateDefaultSubobject<UCameraComponent>(this, TEXT("SideViewCamera"));
 	SideViewCameraComponent->AttachTo(CameraBoom, USpringArmComponent::SocketName);
 	SideViewCameraComponent->bUsePawnControlRotation = false; // We don't want the controller rotating the camera
+	SideViewCameraComponent->ProjectionMode = ECameraProjectionMode::Perspective;
 
 	// Configure character movement
 	GetCharacterMovement()->bOrientRotationToMovement = true; // Face in the direction we are moving..

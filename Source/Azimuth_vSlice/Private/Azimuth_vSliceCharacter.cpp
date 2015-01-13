@@ -24,6 +24,7 @@ AAzimuth_vSliceCharacter::AAzimuth_vSliceCharacter(const FObjectInitializer& Obj
 
 	// Create a camera and attach to boom
 	SideViewCameraComponent = ObjectInitializer.CreateDefaultSubobject<UCameraComponent>(this, TEXT("SideViewCamera"));
+	SideViewCameraComponent->ProjectionMode = ECameraProjectionMode::Perspective;
 	SideViewCameraComponent->AttachTo(CameraBoom, USpringArmComponent::SocketName);
 	SideViewCameraComponent->bUsePawnControlRotation = false; // We don't want the controller rotating the camera
 	SideViewCameraComponent->ProjectionMode = ECameraProjectionMode::Perspective;
